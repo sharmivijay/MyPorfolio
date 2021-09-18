@@ -5,8 +5,9 @@
 
 /* root element is declare the global css variables */
 :root{
-    --base-color:#818CF8;
+    --primary-color:#818CF8;
     --dark-gray : #6B7280;
+    --light-gray:#D1D5DB;
 }
 
 body{
@@ -35,14 +36,14 @@ hr{
     padding: 0.5rem 1rem;
 }
 .link-primary{
-    background-color: var(--base-color);
+    background-color: var(--primary-color);
     border-radius: 0.3rem;
     color: white;
 }
 .link-secondary{
     border-radius: 0.3rem;
-    border: 1px solid var(--base-color);
-    color:var(--base-color);
+    border: 1px solid var(--primary-color);
+    color:var(--primary-color);
 }
 
 /* styling list*/
@@ -59,7 +60,7 @@ hr{
 /*Navigation panel*/
 
 .navigation{
-    background-color: var(--base-color);
+    background-color: var(--primary-color);
     color: white;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
@@ -97,8 +98,40 @@ hr{
 .hero .hero-heading{
     color: var(--dark-gray);
     padding-top:1rem;
+    text-align: center;
 }
 
 .hero .hero-heading .hero-highlighted{
-    color:var(--base-color);
+    color:var(--primary-color);
+}
+
+/*section styles*/
+
+.section{
+    padding:2rem;
+}
+
+.section h4{
+  text-align: center;
+}
+
+.non-white{
+    background-color:var(--light-gray) ;
+}
+
+/*footer*/
+.footer{
+    background-color: var(--primary-color);
+    text-align: center;
+    padding:1rem;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link{
+    color: white;
+}
+
+.footer ul{
+    padding-inline-start:0px;
 }
