@@ -12,6 +12,10 @@ body{
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+hr{
+    margin:2rem 0rem;
+}
+
 /** here comes the container **/
 .container{
     padding-left: 1rem;
@@ -39,3 +43,15 @@ body{
     border: 1px solid var(--base-color);
     color:var(--base-color);
 }
+
+/* styling list*/
+
+.list-non-bullet{
+    list-style: none;
+    padding: 0rem 0.5rem;
+}
+
+.list-item-inline{
+ display: inline;
+}
+
