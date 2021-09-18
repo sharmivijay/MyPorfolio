@@ -1,0 +1,8 @@
+/** Lets add the font type from google fonts **/
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@0;1&display=swap');
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
