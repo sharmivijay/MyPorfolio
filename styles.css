@@ -25,7 +25,7 @@ hr{
 }
 
 .container-center{
-    max-width: 500px;
+    max-width: 700px;
     margin: auto;
 }
 
@@ -126,6 +126,11 @@ hr{
     padding:1rem;
     color: white;
     border-top-right-radius: 1rem;
+}
+
+.footer .footer-heading{
+    font-weight: bold;
+    font-size: large;
 }
 
 .footer .link{
