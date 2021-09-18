@@ -6,6 +6,7 @@
 /* root element is declare the global css variables */
 :root{
     --base-color:#818CF8;
+    --dark-gray : #6B7280;
 }
 
 body{
@@ -83,3 +84,21 @@ hr{
 /*lets define how the image should be displayed in  my page
 */
 
+.hero{
+    padding:2rem;
+}
+
+.hero .hero-img{
+    display: block;
+    max-width: 500px;
+    margin: auto;
+}
+
+.hero .hero-heading{
+    color: var(--dark-gray);
+    padding-top:1rem;
+}
+
+.hero .hero-heading .hero-highlighted{
+    color:var(--base-color);
+}
