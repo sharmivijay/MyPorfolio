@@ -2,6 +2,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@0;1&display=swap');
 
+
+/* root element is declare the global css variables */
+:root{
+    --base-color:#818CF8;
+}
+
 body{
     font-family: 'Source Sans Pro', sans-serif;
 }
@@ -17,3 +23,19 @@ body{
     margin: auto;
 }
 
+/* lets try links */
+
+.link{
+    text-decoration:none;
+    padding: 0.5rem 1rem;
+}
+.link-primary{
+    background-color: var(--base-color);
+    border-radius: 0.3rem;
+    color: white;
+}
+.link-secondary{
+    border-radius: 0.3rem;
+    border: 1px solid var(--base-color);
+    color:var(--base-color);
+}
